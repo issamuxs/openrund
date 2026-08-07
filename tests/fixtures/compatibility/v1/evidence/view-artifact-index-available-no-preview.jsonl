@@ -1,0 +1,1 @@
+{"stream":[{"id":"evt_oracle_view_40_1","runID":"run_oracle_view_40","type":"artifact.created","version":1,"timestamp":"2026-01-02T03:04:05.678Z","actor":"system","payload":{"artifactID":"art_oracle","kind":"oracle","metadata":{}},"position":1}],"watermark":1,"result":{"art_oracle":{"artifactID":"art_oracle","kind":"oracle","metadata":{},"available":true}}}

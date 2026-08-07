@@ -1,0 +1,1 @@
+{"provider":"openai","variant":"fallback-ids","liveRequestCount":0,"outcome":{"modelCallID":"req_openai_action","operation":{"kind":"create_action","actionID":"action_openai","capabilityID":"filesystem","actionName":"read","input":{"path":"README.md"}}}}

@@ -1,0 +1,1 @@
+{"id":"evt_oracle_inventory_058","runID":"run_oracle_inventory","position":58,"type":"artifact.unavailable","version":1,"timestamp":"2026-01-02T03:04:05.678Z","actor":"system","causationID":"evt_oracle_inventory_057","payload":{"artifactID":"art_oracle","reason":"unavailable"}}

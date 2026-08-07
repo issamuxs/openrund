@@ -1,0 +1,1 @@
+{"id":"evt_oracle_inventory_063","runID":"run_oracle_inventory","position":63,"type":"lease.acquired","version":1,"timestamp":"2026-01-02T03:04:05.678Z","actor":"system","causationID":"evt_oracle_inventory_062","payload":{"leaseID":"lease_oracle","ownerID":"worker","expiresAt":"2026-01-02T03:04:05.678Z"}}

@@ -1,0 +1,1 @@
+{"provider":"openai","variant":"nonobject-arguments","liveRequestCount":0,"rejection":{"code":"provider_tool_arguments_invalid","inputClassification":"non_object","message":"Provider tool arguments must be a JSON object."}}

@@ -1,0 +1,182 @@
+"""Explicit v1 wire aliases used only by the codec boundary."""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+from types import MappingProxyType
+from typing import Final, final
+
+
+@final
+@dataclass(frozen=True, slots=True, kw_only=True)
+class AliasSpec:
+    semantic_name: str
+    wire_name: str
+
+
+def _alias(semantic_name: str, wire_name: str) -> AliasSpec:
+    return AliasSpec(semantic_name=semantic_name, wire_name=wire_name)
+
+
+EVENT_ENVELOPE_ALIASES: Final = MappingProxyType(
+    {
+        "event_id": _alias("event_id", "id"),
+        "run_id": _alias("run_id", "runID"),
+        "position": _alias("position", "position"),
+        "event_type": _alias("event_type", "type"),
+        "version": _alias("version", "version"),
+        "timestamp": _alias("timestamp", "timestamp"),
+        "actor": _alias("actor", "actor"),
+        "payload": _alias("payload", "payload"),
+        "causation_id": _alias("causation_id", "causationID"),
+        "correlation_id": _alias("correlation_id", "correlationID"),
+        "command_id": _alias("command_id", "commandID"),
+    }
+)
+
+
+_PAYLOAD_ALIAS_PAIRS: tuple[tuple[str, str], ...] = (
+    ("action_id", "actionID"),
+    ("action_name", "actionName"),
+    ("actions", "actions"),
+    ("affected_resources", "affectedResources"),
+    ("allow_nested_delegation", "allowNestedDelegation"),
+    ("annotation", "annotation"),
+    ("annotation_id", "annotationID"),
+    ("approved_input", "approvedInput"),
+    ("approved_input_validation", "approvedInputValidation"),
+    ("artifact_id", "artifactID"),
+    ("artifact_ids", "artifactIDs"),
+    ("artifact_refs", "artifactRefs"),
+    ("authority_grants", "authorityGrants"),
+    ("authority_drift", "authorityDrift"),
+    ("authority_id", "authorityID"),
+    ("budget", "budget"),
+    ("capability_id", "capabilityID"),
+    ("check_count", "checkCount"),
+    ("check_id", "checkID"),
+    ("check_plan", "checkPlan"),
+    ("checkpoint_id", "checkpointID"),
+    ("classification", "classification"),
+    ("code", "code"),
+    ("command_id", "commandID"),
+    ("completed_run_ids", "completedRunIDs"),
+    ("constraints", "constraints"),
+    ("content", "content"),
+    ("content_hash", "contentHash"),
+    ("content_preview", "contentPreview"),
+    ("contract", "contract"),
+    ("contract_preview", "contractPreview"),
+    ("corrects_checkpoint_id", "correctsCheckpointID"),
+    ("correction", "correction"),
+    ("criterion", "criterion"),
+    ("data", "data"),
+    ("deadline", "deadline"),
+    ("decision", "decision"),
+    ("decision_trace", "decisionTrace"),
+    ("delegated_run_first_position", "delegatedRunFirstPosition"),
+    ("delegated_run_id", "delegatedRunID"),
+    ("delegation_id", "delegationID"),
+    ("delta", "delta"),
+    ("description", "description"),
+    ("direction", "direction"),
+    ("effect", "effect"),
+    ("effects", "effects"),
+    ("error", "error"),
+    ("evidence", "evidence"),
+    ("evidence_refs", "evidenceRefs"),
+    ("expired_at", "expiredAt"),
+    ("expires_at", "expiresAt"),
+    ("failure_behavior", "failureBehavior"),
+    ("failure_policy", "failurePolicy"),
+    ("fire_at", "fireAt"),
+    ("fired_at", "firedAt"),
+    ("fired_by", "firedBy"),
+    ("from_position", "fromPosition"),
+    ("granted_by", "grantedBy"),
+    ("hash", "hash"),
+    ("initial_status", "initialStatus"),
+    ("input", "input"),
+    ("kind", "kind"),
+    ("late_handoff", "lateHandoff"),
+    ("late_handoff_policy", "lateHandoffPolicy"),
+    ("lease_id", "leaseID"),
+    ("max_requests", "maxRequests"),
+    ("message", "message"),
+    ("message_id", "messageID"),
+    ("metadata", "metadata"),
+    ("mode", "mode"),
+    ("model_call_id", "modelCallID"),
+    ("mutation", "mutation"),
+    ("note", "note"),
+    ("objective", "objective"),
+    ("on_budget_expired", "onBudgetExpired"),
+    ("on_parent_cancel", "onParentCancel"),
+    ("on_satisfied", "onSatisfied"),
+    ("operation", "operation"),
+    ("operation_kind", "operationKind"),
+    ("origin_actor", "actor"),
+    ("origin_type", "type"),
+    ("outcome", "outcome"),
+    ("outcome_filter", "outcomeFilter"),
+    ("owner_id", "ownerID"),
+    ("parent_run_id", "parentRunID"),
+    ("parent_spawn_event_id", "parentSpawnEventID"),
+    ("parts", "parts"),
+    ("policy_rule_ids", "policyRuleIDs"),
+    ("policy_snapshot", "policySnapshot"),
+    ("preview", "preview"),
+    ("prompt", "prompt"),
+    ("protected_event_types", "protectedEventTypes"),
+    ("provider", "provider"),
+    ("quorum", "quorum"),
+    ("reason", "reason"),
+    ("reconciled_by", "reconciledBy"),
+    ("related_entity_ids", "relatedEntityIDs"),
+    ("reliability", "reliability"),
+    ("request_event_id", "requestEventID"),
+    ("request_payload", "requestPayload"),
+    ("required_artifact_kinds", "requiredArtifactKinds"),
+    ("resolved_by", "resolvedBy"),
+    ("responded_by", "respondedBy"),
+    ("response", "response"),
+    ("result", "result"),
+    ("result_event_ids", "resultEventIDs"),
+    ("result_kind", "resultKind"),
+    ("resumed_from", "resumedFrom"),
+    ("retained_context", "retainedContext"),
+    ("retryable", "retryable"),
+    ("reversibility", "reversibility"),
+    ("role", "role"),
+    ("root_id", "rootID"),
+    ("rule", "rule"),
+    ("rule_id", "ruleID"),
+    ("run_kind", "runKind"),
+    ("scheduled_for", "scheduledFor"),
+    ("source", "source"),
+    ("status", "status"),
+    ("subject", "subject"),
+    ("summary", "summary"),
+    ("target", "target"),
+    ("target_run_ids", "targetRunIDs"),
+    ("terminal_run_ids", "terminalRunIDs"),
+    ("text", "text"),
+    ("title", "title"),
+    ("to_position", "toPosition"),
+    ("trigger_event_id", "triggerEventID"),
+    ("unknown_event_id", "unknownEventID"),
+    ("uri", "uri"),
+    ("validator", "validator"),
+    ("variant", "variant"),
+    ("version", "version"),
+    ("wait_id", "waitID"),
+    ("waiting_on", "waitingOn"),
+    ("wall_clock_timeout_ms", "wallClockTimeoutMs"),
+)
+
+PAYLOAD_ALIASES: Final = MappingProxyType(
+    {semantic: _alias(semantic, wire) for semantic, wire in _PAYLOAD_ALIAS_PAIRS}
+)
+
+if len(PAYLOAD_ALIASES) != len(_PAYLOAD_ALIAS_PAIRS):
+    raise RuntimeError("payload_alias_duplicate")

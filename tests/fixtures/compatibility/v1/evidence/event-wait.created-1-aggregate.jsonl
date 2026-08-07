@@ -1,0 +1,1 @@
+{"id":"evt_oracle_inventory_026","runID":"run_oracle_inventory","position":26,"type":"wait.created","version":1,"timestamp":"2026-01-02T03:04:05.678Z","actor":"system","causationID":"evt_oracle_inventory_025","payload":{"waitingOn":[{"waitID":"w_oracle_approval","kind":"approval"}],"reason":"oracle"}}

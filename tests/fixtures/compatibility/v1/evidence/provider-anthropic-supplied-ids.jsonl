@@ -1,0 +1,1 @@
+{"provider":"anthropic","variant":"supplied-ids","liveRequestCount":0,"outcome":{"modelCallID":"anthropic_response","operation":{"kind":"create_action","actionID":"tool_1","capabilityID":"filesystem","actionName":"read","input":{"path":"README.md"}}}}

@@ -1,0 +1,1 @@
+{"stream":[],"watermark":0,"result":{"status":"unknown","pendingWaits":[],"authorityGrants":[],"policyRules":[],"completionReadiness":{"outputArtifactRequirements":[],"passedChecks":[],"semanticChecks":[],"diagnosticChecks":[],"sourceCoverageSatisfied":false,"unresolvedUnknownOutcomes":0,"ready":false,"issues":["missing_source_coverage_check"]},"currentPosition":0}}

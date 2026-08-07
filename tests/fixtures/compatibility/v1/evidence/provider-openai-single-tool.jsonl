@@ -1,0 +1,1 @@
+{"provider":"openai","variant":"single-tool","liveRequestCount":0,"outcome":{"modelCallID":"openai_response","operation":{"kind":"create_action","actionID":"call_1","capabilityID":"filesystem","actionName":"read","input":{"path":"README.md"}}}}

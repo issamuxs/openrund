@@ -1,0 +1,1 @@
+{"id":"evt_oracle_inventory_012","runID":"run_oracle_inventory","position":12,"type":"annotation.recorded","version":1,"timestamp":"2026-01-02T03:04:05.678Z","actor":"system","causationID":"evt_oracle_inventory_011","payload":{"annotationID":"ann_oracle","contentPreview":"oracle","metadata":{}}}

@@ -1,0 +1,1 @@
+{"commandID":"cmd_oracle_accepted","decision":"accepted","decisionTrace":[{"criterion":"oracle_fixture","result":"pass"}],"resultEventIDs":["evt_oracle_result"],"targetEvent":{"status":"present","eventID":"evt_oracle_result"}}

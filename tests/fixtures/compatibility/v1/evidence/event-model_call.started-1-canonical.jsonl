@@ -1,0 +1,1 @@
+{"id":"evt_oracle_inventory_013","runID":"run_oracle_inventory","position":13,"type":"model_call.started","version":1,"timestamp":"2026-01-02T03:04:05.678Z","actor":"system","causationID":"evt_oracle_inventory_012","payload":{"modelCallID":"mcl_oracle"}}

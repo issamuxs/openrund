@@ -1,0 +1,1 @@
+{"provider":"openai","variant":"text","liveRequestCount":0,"outcome":{"modelCallID":"openai_response","operation":{"kind":"add_message","message":{"preview":"offline provider text"}}}}

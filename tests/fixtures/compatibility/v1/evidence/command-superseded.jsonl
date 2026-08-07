@@ -1,0 +1,1 @@
+{"commandID":"cmd_oracle_superseded","decision":"superseded","decisionTrace":[{"criterion":"oracle_fixture","result":"pass"}],"resultEventIDs":[],"targetEvent":{"status":"absent"},"declarationOnly":true,"replacementCommandID":"cmd_oracle_replacement"}

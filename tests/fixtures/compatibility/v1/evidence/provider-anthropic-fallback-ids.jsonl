@@ -1,0 +1,1 @@
+{"provider":"anthropic","variant":"fallback-ids","liveRequestCount":0,"outcome":{"modelCallID":"req_anthropic_action","operation":{"kind":"create_action","actionID":"tool_anthropic","capabilityID":"filesystem","actionName":"read","input":{"path":"README.md"}}}}

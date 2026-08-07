@@ -1,0 +1,1 @@
+{"provider":"local","variant":"fallback-ids","liveRequestCount":0,"outcome":{"modelCallID":"req_local_action","operation":{"kind":"create_action","actionID":"action_local","capabilityID":"filesystem","actionName":"read","input":{"path":"README.md"}}}}

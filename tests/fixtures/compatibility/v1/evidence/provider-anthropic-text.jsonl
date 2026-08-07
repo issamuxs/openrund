@@ -1,0 +1,1 @@
+{"provider":"anthropic","variant":"text","liveRequestCount":0,"outcome":{"modelCallID":"anthropic_response","operation":{"kind":"add_message","message":{"preview":"offline provider text"}}}}

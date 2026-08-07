@@ -1,0 +1,1 @@
+{"stream":[{"id":"evt_oracle_view_16_1","runID":"run_oracle_view_16","type":"model_call.started","version":1,"timestamp":"2026-01-02T03:04:05.678Z","actor":"system","payload":{"modelCallID":"mcl_oracle"},"position":1}],"watermark":1,"result":[{"eventID":"evt_oracle_view_16_1","type":"model_call.started","timestamp":"2026-01-02T03:04:05.678Z"}]}

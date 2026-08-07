@@ -1,0 +1,1 @@
+{"commandID":"cmd_oracle_rejected","decision":"rejected","decisionTrace":[{"criterion":"oracle_fixture","result":"fail"}],"resultEventIDs":[],"targetEvent":{"status":"absent"},"rejection":{"code":"command_rejected"}}

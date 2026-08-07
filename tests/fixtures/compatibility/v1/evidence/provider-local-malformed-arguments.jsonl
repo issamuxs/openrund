@@ -1,0 +1,1 @@
+{"provider":"local","variant":"malformed-arguments","liveRequestCount":0,"rejection":{"code":"provider_tool_arguments_invalid","inputClassification":"malformed_json","message":"Provider tool arguments must be a JSON object."}}

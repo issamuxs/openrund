@@ -1,0 +1,1 @@
+{"provider":"openai","variant":"dotted-action-name","liveRequestCount":0,"outcome":{"modelCallID":"openai_response","operation":{"kind":"create_action","actionID":"call_1","capabilityID":"documents","actionName":"markdown.replace_heading","input":{"path":"README.md"}}}}

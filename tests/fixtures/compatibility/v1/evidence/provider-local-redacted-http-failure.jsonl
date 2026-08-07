@@ -1,0 +1,1 @@
+{"provider":"local","variant":"redacted-http-failure","liveRequestCount":0,"error":"Local OpenAI-compatible provider request failed (503 Service Unavailable): {\"error\":\"offline failure\",\"authorization\":\"[REDACTED]\",\"api_key\":\"[REDACTED]\",\"token\":\"[REDACTED]\"}"}

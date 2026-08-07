@@ -1,0 +1,1 @@
+{"id":"evt_oracle_inventory_021","runID":"run_oracle_inventory","position":21,"type":"action.cancelled","version":1,"timestamp":"2026-01-02T03:04:05.678Z","actor":"system","causationID":"evt_oracle_inventory_020","payload":{"actionID":"act_oracle","reason":"cancelled"}}

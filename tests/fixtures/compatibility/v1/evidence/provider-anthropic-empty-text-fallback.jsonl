@@ -1,0 +1,1 @@
+{"provider":"anthropic","variant":"empty-text-fallback","liveRequestCount":0,"outcome":{"modelCallID":"anthropic_response","operation":{"kind":"add_message","message":{"preview":"No assistant text returned"}}}}

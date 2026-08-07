@@ -1,0 +1,1 @@
+{"id":"evt_oracle_inventory_050","runID":"run_oracle_inventory","position":50,"type":"delegation.completed","version":1,"timestamp":"2026-01-02T03:04:05.678Z","actor":"system","causationID":"evt_oracle_inventory_049","payload":{"delegatedRunID":"run_oracle_child","result":{"version":1,"kind":"oracle","summary":"complete"}}}

@@ -1,0 +1,1 @@
+{"commandID":"cmd_oracle_deferred","decision":"deferred","decisionTrace":[{"criterion":"oracle_fixture","result":"pass"}],"resultEventIDs":[],"targetEvent":{"status":"absent"},"wait":{"waitID":"w_oracle_deferred","kind":"approval"}}
